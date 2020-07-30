@@ -1,6 +1,5 @@
 #citire
-lin=input()
-lin=lin.split()
+lin=input().split()
 D=int(lin[0])
 k=int(lin[1])
 
@@ -8,8 +7,7 @@ i=0
 n=[] #vector pentru nr de carti
 p=[] #vector pentru grosimea lor
 while i<k:
-    lin=input()
-    lin=lin.split()
+    lin=input().split()
     n.append(int(lin[0])) 
     p.append(int(lin[1]))
     i+=1
